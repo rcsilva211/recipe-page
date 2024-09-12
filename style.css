@@ -13,7 +13,7 @@ body,html{
 }
 
 main{
-    background-color: hsl(30, 18%, 87%);
+    background-color: #f3e5d8;
     display: flex;
     justify-content: center;
     align-items: center;
