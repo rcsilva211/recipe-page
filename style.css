@@ -1,147 +1,154 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body,html{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-main{
-    background-color: #f3e5d8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+  background-color: #f3e5d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card{
-    margin: 100px auto;
-    background-color: hsl(0, 0%, 100%);
-    width: clamp(320px, 100%, 700px);
-    border-radius: 20px;
-    padding: 30px
+.card {
+  margin: 100px auto;
+  background-color: hsl(0, 0%, 100%);
+  width: clamp(320px, 100%, 700px);
+  border-radius: 20px;
+  padding: 30px;
 }
 
-.card-content{
-    padding: 0 0 30px 0;
+.card-content {
+  padding: 0 0 30px 0;
 }
 
-h1,h2{
-    font-family: "Young Serif", system-ui;
-    font-optical-sizing: auto;
+h1,
+h2 {
+  font-family: 'Young Serif', system-ui;
+  font-optical-sizing: auto;
 }
 
-h1{
-    margin: 30px 0 20px 0;
+h1 {
+  margin: 30px 0 20px 0;
 }
 
-h2{
-    margin-bottom: 15px;
-}   
-
-.instructions h2, .nutrition h2{
-    margin-top: 30px;
+h2 {
+  margin-bottom: 15px;
 }
 
-h3, p, li, td:nth-child(odd), td:nth-child(even){
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    color: hsl(30, 10%, 34%);
+.instructions h2,
+.nutrition h2 {
+  margin-top: 30px;
 }
 
-h2,td:nth-child(even){
-    color: hsl(14, 45%, 36%);
+h3,
+p,
+li,
+td:nth-child(odd),
+td:nth-child(even) {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  color: hsl(30, 10%, 34%);
 }
 
-p{
-    font-size: 16px;
+h2,
+td:nth-child(even) {
+  color: hsl(14, 45%, 36%);
 }
 
-img{
-    width: 100%;
-    border-radius: 20px;
+p {
+  font-size: 16px;
 }
 
-.prep-time{
-    padding: 20px;
-    margin: 30px auto;
-    border-radius: 10px;
-    background-color: hsl(330, 100%, 98%);
+img {
+  width: 100%;
+  border-radius: 20px;
 }
 
-li{
-    padding-left: 20px;
-    margin-bottom: 10px;
+.prep-time {
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: hsl(330, 100%, 98%);
 }
 
-li::marker{
-    color: hsl(14, 45%, 36%);
+li {
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 
-.prep-time h3{
-    color: hwb(332 16% 52%);
-    margin-bottom: 15px;
+li::marker {
+  color: hsl(14, 45%, 36%);
 }
 
-hr{
-    border: 0;
-    height: 2px;
-    background-color: hsl(30, 18%, 87%);
-    margin-top: 20px;
+.prep-time h3 {
+  color: hwb(332 16% 52%);
+  margin-bottom: 15px;
 }
 
-table{
-    border-collapse: collapse;
+hr {
+  border: 0;
+  height: 2px;
+  background-color: hsl(30, 18%, 87%);
+  margin-top: 20px;
 }
 
-tr{
-    border-bottom: 1px solid hsl(30, 18%, 87%);
+table {
+  border-collapse: collapse;
 }
 
-tr:last-of-type{
-    border-bottom: none;
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
-
-td:nth-child(even){
-    font-weight: 700;
-    margin-left: -20px;
-    width: 50%;
+tr:last-of-type {
+  border-bottom: none;
 }
 
-td:nth-child(odd){
-    padding-left: 30px;
+td:nth-child(even) {
+  font-weight: 700;
+  margin-left: -20px;
+  width: 50%;
 }
 
-td{
-    padding: 10px 0;
+td:nth-child(odd) {
+  padding-left: 30px;
+}
+
+td {
+  padding: 10px 0;
 }
 
 @media screen and (max-width: 376px) {
-    .card{
-        margin: 0px auto;
-        background-color: hsl(0, 0%, 100%);
-        padding: 0px;
-        border-radius: 0;
-    }
+  .card {
+    margin: 0px auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 0px;
+    border-radius: 0;
+  }
 
-    img{
-        border-radius: 0;
-    }
-    .card-content{
-        padding: 0 30px 30px 30px;
-    }
+  img {
+    border-radius: 0;
+  }
+  .card-content {
+    padding: 0 30px 30px 30px;
+  }
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
